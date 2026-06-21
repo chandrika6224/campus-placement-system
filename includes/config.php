@@ -1,8 +1,8 @@
 <?php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'placementsystem');
+define('DB_HOST', 'sql205.infinityfree.com');
+define('DB_USER', 'if0_42237181');
+define('DB_PASS', 'Chandu4226');
+define('DB_NAME','if0_42237181_placement');
 
 $conn = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 if ($conn->connect_error) {
